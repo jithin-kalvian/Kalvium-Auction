@@ -1,0 +1,116 @@
+* {
+  border: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  width: 100%;
+  max-height: 100%;
+  text-align: center;
+}
+
+nav {
+  height: 10vh;
+}
+
+.flex {
+  display: flex;
+}
+
+.direction-row {
+  flex-direction: row;
+}
+
+.direction-column {
+  flex-direction: column;
+}
+
+.justify-center {
+  justify-content: center;
+}
+
+.justify-space-evenly {
+  justify-content: space-evenly;
+}
+.align-center {
+  align-items: center;
+}
+.profile-main-container {
+  background-color: aquamarine;
+  width: 50vw;
+  height: 100vh;
+}
+
+.profile-container {
+  height: 40vw;
+}
+.team-container {
+  background-color: coral;
+  height: 20vh;
+}
+
+.team-main-container {
+  background-color: blanchedalmond;
+  width: 50%;
+}
+
+.profile-info-container {
+  background-color: darkgray;
+  height: 30vh;
+}
+
+.profile-info {
+  height: 150px;
+  width: 200px;
+  background-color: blue;
+  border-radius: 10px;
+}
+
+.button {
+  height: 30px;
+  width: 60px;
+  background-color: brown;
+  line-height: 30px;
+  color: white;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.team-members-container {
+  /* min-height: 33.33vh; */
+  width: 50vw;
+}
+.team-holder {
+  height: 33.33vh;
+}
+.kalvian {
+  min-height: 80px;
+  min-width: 80px;
+  background-color: darkmagenta;
+  margin: 3px;
+}
+
+.wrap {
+  flex-wrap: wrap;
+}
+
+/* .team-container {
+  max-width: 50vw;
+} */
+
+.balance-container-main {
+  width: 50vw;
+}
+
+.team {
+  height: 100px;
+}
+
+.sell {
+  cursor: pointer;
+}
+
+.profile-container img {
+  border-radius: 10px;
+}
