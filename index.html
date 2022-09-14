@@ -26,15 +26,44 @@
             src="https://i.pinimg.com/736x/a5/95/53/a59553b51e05985c0cafba435488aec2.jpg"
             alt=""
             id="main-image"
-            width="300px"
+            width="250px"
           />
-          <h2>Price: <span></span></h2>
+          <div id="profile-info" class="flex justify-space-evenly align-center">
+            <div class="flex align-center">
+              <h2>Current Price: <span id="player-current-price">100</span></h2>
+              <img
+                width="30px"
+                src="https://cdn-icons-png.flaticon.com/512/7920/7920726.png"
+                alt=""
+              />
+            </div>
+            <div class="flex align-center">
+              <h2>Next Bid: <span id="player-next-bid">120</span></h2>
+              <img
+                width="30px"
+                src="https://cdn-icons-png.flaticon.com/512/7920/7920726.png"
+                alt=""
+              />
+            </div>
+          </div>
         </div>
         <div
           class="profile-info-container flex justify-space-evenly align-center wrap"
         >
-          <div class="profile-info"></div>
-          <div class="profile-info"></div>
+          <div class="profile-info">
+            <h4>Talent:</h4>
+            <span id="player-talent"
+              >Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea qui a
+              unde
+            </span>
+          </div>
+          <div class="profile-info">
+            <h4>Hobbies:</h4>
+            <span id="player-hobbies"
+              >Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea qui a
+              unde</span
+            >
+          </div>
           <!-- <div class="profile-info"></div>
           <div class="profile-info"></div> -->
         </div>
@@ -43,28 +72,29 @@
             class="team flex direction-column justify-space-evenly align-center"
           >
             <h3>Team A</h3>
-            <div class="button">Bid</div>
+            <div id="team-a-bid" class="button">Bid</div>
           </div>
           <div
             class="team flex direction-column justify-space-evenly align-center"
           >
             <h3>Team B</h3>
-            <div class="button">Bid</div>
+            <div id="team-b-bid" class="button">Bid</div>
           </div>
           <div
             class="team flex direction-column justify-space-evenly align-center"
           >
             <h3>Team C</h3>
-            <div class="button">Bid</div>
+            <div id="team-c-bid" class="button">Bid</div>
           </div>
-          <div class="">
-            <img
-              src="https://cdn-icons-png.flaticon.com/512/2058/2058148.png"
-              alt=""
-              width="50px"
-              class="sell"
-            />
-          </div>
+        </div>
+        <div id="sell-button">
+          <!--  -->
+          <img
+            src="https://cdn-icons-png.flaticon.com/512/2058/2058148.png"
+            alt=""
+            width="50px"
+            class="sell"
+          />
         </div>
       </div>
       <div class="team-main-container flex direction-column">
@@ -75,7 +105,14 @@
             class="balance-container-main flex justify-space-evenly align-center"
           >
             <h2>Team A</h2>
-            <h3>Kalvium Balance: <span></span></h3>
+            <div class="flex align-center">
+              <h3>Kalvium Balance: <span id="team-a-balance">5000</span></h3>
+              <img
+                width="30px"
+                src="https://cdn-icons-png.flaticon.com/512/7920/7920726.png"
+                alt=""
+              />
+            </div>
           </div>
           <div
             class="team-members-container flex wrap justify-space-evenly align-center"
@@ -83,73 +120,109 @@
             <div
               class="kalvian flex direction-column justify-space-evenly align-center"
             >
-              <img src="" alt="" />
+              <img
+                src="https://i.pinimg.com/736x/a5/95/53/a59553b51e05985c0cafba435488aec2.jpg"
+                alt=""
+              />
               <p></p>
             </div>
             <div
               class="kalvian flex direction-column justify-space-evenly align-center"
             >
-              <img src="" alt="" />
+              <img
+                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSSQRPqREjFKti6YlFX7fha1oSCTIUV_gwbPg&usqp=CAU"
+                alt=""
+              />
               <p></p>
             </div>
             <div
               class="kalvian flex direction-column justify-space-evenly align-center"
             >
-              <img src="" alt="" />
+              <img
+                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSSQRPqREjFKti6YlFX7fha1oSCTIUV_gwbPg&usqp=CAU"
+                alt=""
+              />
               <p></p>
             </div>
             <div
               class="kalvian flex direction-column justify-space-evenly align-center"
             >
-              <img src="" alt="" />
+              <img
+                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSSQRPqREjFKti6YlFX7fha1oSCTIUV_gwbPg&usqp=CAU"
+                alt=""
+              />
               <p></p>
             </div>
             <div
               class="kalvian flex direction-column justify-space-evenly align-center"
             >
-              <img src="" alt="" />
+              <img
+                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSSQRPqREjFKti6YlFX7fha1oSCTIUV_gwbPg&usqp=CAU"
+                alt=""
+              />
               <p></p>
             </div>
             <div
               class="kalvian flex direction-column justify-space-evenly align-center"
             >
-              <img src="" alt="" />
+              <img
+                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSSQRPqREjFKti6YlFX7fha1oSCTIUV_gwbPg&usqp=CAU"
+                alt=""
+              />
               <p></p>
             </div>
             <div
               class="kalvian flex direction-column justify-space-evenly align-center"
             >
-              <img src="" alt="" />
+              <img
+                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSSQRPqREjFKti6YlFX7fha1oSCTIUV_gwbPg&usqp=CAU"
+                alt=""
+              />
               <p></p>
             </div>
             <div
               class="kalvian flex direction-column justify-space-evenly align-center"
             >
-              <img src="" alt="" />
+              <img
+                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSSQRPqREjFKti6YlFX7fha1oSCTIUV_gwbPg&usqp=CAU"
+                alt=""
+              />
               <p></p>
             </div>
             <div
               class="kalvian flex direction-column justify-space-evenly align-center"
             >
-              <img src="" alt="" />
+              <img
+                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSSQRPqREjFKti6YlFX7fha1oSCTIUV_gwbPg&usqp=CAU"
+                alt=""
+              />
               <p></p>
             </div>
             <div
               class="kalvian flex direction-column justify-space-evenly align-center"
             >
-              <img src="" alt="" />
+              <img
+                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSSQRPqREjFKti6YlFX7fha1oSCTIUV_gwbPg&usqp=CAU"
+                alt=""
+              />
               <p></p>
             </div>
             <div
               class="kalvian flex direction-column justify-space-evenly align-center"
             >
-              <img src="" alt="" />
+              <img
+                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSSQRPqREjFKti6YlFX7fha1oSCTIUV_gwbPg&usqp=CAU"
+                alt=""
+              />
               <p></p>
             </div>
             <div
               class="kalvian flex direction-column justify-space-evenly align-center"
             >
-              <img src="" alt="" />
+              <img
+                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSSQRPqREjFKti6YlFX7fha1oSCTIUV_gwbPg&usqp=CAU"
+                alt=""
+              />
               <p></p>
             </div>
           </div>
@@ -161,7 +234,14 @@
             class="balance-container-main flex justify-space-evenly align-center"
           >
             <h2>Team B</h2>
-            <h3>Kalvium Balance: <span></span></h3>
+            <div class="flex align-center">
+              <h3>Kalvium Balance: <span id="team-b-balance">5000</span></h3>
+              <img
+                width="30px"
+                src="https://cdn-icons-png.flaticon.com/512/7920/7920726.png"
+                alt=""
+              />
+            </div>
           </div>
           <div
             class="team-members-container flex wrap justify-space-evenly align-center"
@@ -169,73 +249,109 @@
             <div
               class="kalvian flex direction-column justify-space-evenly align-center"
             >
-              <img src="" alt="" />
+              <img
+                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSSQRPqREjFKti6YlFX7fha1oSCTIUV_gwbPg&usqp=CAU"
+                alt=""
+              />
               <p></p>
             </div>
             <div
               class="kalvian flex direction-column justify-space-evenly align-center"
             >
-              <img src="" alt="" />
+              <img
+                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSSQRPqREjFKti6YlFX7fha1oSCTIUV_gwbPg&usqp=CAU"
+                alt=""
+              />
               <p></p>
             </div>
             <div
               class="kalvian flex direction-column justify-space-evenly align-center"
             >
-              <img src="" alt="" />
+              <img
+                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSSQRPqREjFKti6YlFX7fha1oSCTIUV_gwbPg&usqp=CAU"
+                alt=""
+              />
               <p></p>
             </div>
             <div
               class="kalvian flex direction-column justify-space-evenly align-center"
             >
-              <img src="" alt="" />
+              <img
+                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSSQRPqREjFKti6YlFX7fha1oSCTIUV_gwbPg&usqp=CAU"
+                alt=""
+              />
               <p></p>
             </div>
             <div
               class="kalvian flex direction-column justify-space-evenly align-center"
             >
-              <img src="" alt="" />
+              <img
+                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSSQRPqREjFKti6YlFX7fha1oSCTIUV_gwbPg&usqp=CAU"
+                alt=""
+              />
               <p></p>
             </div>
             <div
               class="kalvian flex direction-column justify-space-evenly align-center"
             >
-              <img src="" alt="" />
+              <img
+                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSSQRPqREjFKti6YlFX7fha1oSCTIUV_gwbPg&usqp=CAU"
+                alt=""
+              />
               <p></p>
             </div>
             <div
               class="kalvian flex direction-column justify-space-evenly align-center"
             >
-              <img src="" alt="" />
+              <img
+                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSSQRPqREjFKti6YlFX7fha1oSCTIUV_gwbPg&usqp=CAU"
+                alt=""
+              />
               <p></p>
             </div>
             <div
               class="kalvian flex direction-column justify-space-evenly align-center"
             >
-              <img src="" alt="" />
+              <img
+                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSSQRPqREjFKti6YlFX7fha1oSCTIUV_gwbPg&usqp=CAU"
+                alt=""
+              />
               <p></p>
             </div>
             <div
               class="kalvian flex direction-column justify-space-evenly align-center"
             >
-              <img src="" alt="" />
+              <img
+                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSSQRPqREjFKti6YlFX7fha1oSCTIUV_gwbPg&usqp=CAU"
+                alt=""
+              />
               <p></p>
             </div>
             <div
               class="kalvian flex direction-column justify-space-evenly align-center"
             >
-              <img src="" alt="" />
+              <img
+                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSSQRPqREjFKti6YlFX7fha1oSCTIUV_gwbPg&usqp=CAU"
+                alt=""
+              />
               <p></p>
             </div>
             <div
               class="kalvian flex direction-column justify-space-evenly align-center"
             >
-              <img src="" alt="" />
+              <img
+                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSSQRPqREjFKti6YlFX7fha1oSCTIUV_gwbPg&usqp=CAU"
+                alt=""
+              />
               <p></p>
             </div>
             <div
               class="kalvian flex direction-column justify-space-evenly align-center"
             >
-              <img src="" alt="" />
+              <img
+                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSSQRPqREjFKti6YlFX7fha1oSCTIUV_gwbPg&usqp=CAU"
+                alt=""
+              />
               <p></p>
             </div>
           </div>
@@ -247,7 +363,14 @@
             class="balance-container-main flex justify-space-evenly align-center"
           >
             <h2>Team C</h2>
-            <h3>Kalvium Balance: <span></span></h3>
+            <div class="flex align-center">
+              <h3>Kalvium Balance: <span id="team-c-balance">5000</span></h3>
+              <img
+                width="30px"
+                src="https://cdn-icons-png.flaticon.com/512/7920/7920726.png"
+                alt=""
+              />
+            </div>
           </div>
           <div
             class="team-members-container flex wrap justify-space-evenly align-center"
@@ -255,73 +378,109 @@
             <div
               class="kalvian flex direction-column justify-space-evenly align-center"
             >
-              <img src="" alt="" />
+              <img
+                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSSQRPqREjFKti6YlFX7fha1oSCTIUV_gwbPg&usqp=CAU"
+                alt=""
+              />
               <p></p>
             </div>
             <div
               class="kalvian flex direction-column justify-space-evenly align-center"
             >
-              <img src="" alt="" />
+              <img
+                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSSQRPqREjFKti6YlFX7fha1oSCTIUV_gwbPg&usqp=CAU"
+                alt=""
+              />
               <p></p>
             </div>
             <div
               class="kalvian flex direction-column justify-space-evenly align-center"
             >
-              <img src="" alt="" />
+              <img
+                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSSQRPqREjFKti6YlFX7fha1oSCTIUV_gwbPg&usqp=CAU"
+                alt=""
+              />
               <p></p>
             </div>
             <div
               class="kalvian flex direction-column justify-space-evenly align-center"
             >
-              <img src="" alt="" />
+              <img
+                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSSQRPqREjFKti6YlFX7fha1oSCTIUV_gwbPg&usqp=CAU"
+                alt=""
+              />
               <p></p>
             </div>
             <div
               class="kalvian flex direction-column justify-space-evenly align-center"
             >
-              <img src="" alt="" />
+              <img
+                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSSQRPqREjFKti6YlFX7fha1oSCTIUV_gwbPg&usqp=CAU"
+                alt=""
+              />
               <p></p>
             </div>
             <div
               class="kalvian flex direction-column justify-space-evenly align-center"
             >
-              <img src="" alt="" />
+              <img
+                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSSQRPqREjFKti6YlFX7fha1oSCTIUV_gwbPg&usqp=CAU"
+                alt=""
+              />
               <p></p>
             </div>
             <div
               class="kalvian flex direction-column justify-space-evenly align-center"
             >
-              <img src="" alt="" />
+              <img
+                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSSQRPqREjFKti6YlFX7fha1oSCTIUV_gwbPg&usqp=CAU"
+                alt=""
+              />
               <p></p>
             </div>
             <div
               class="kalvian flex direction-column justify-space-evenly align-center"
             >
-              <img src="" alt="" />
+              <img
+                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSSQRPqREjFKti6YlFX7fha1oSCTIUV_gwbPg&usqp=CAU"
+                alt=""
+              />
               <p></p>
             </div>
             <div
               class="kalvian flex direction-column justify-space-evenly align-center"
             >
-              <img src="" alt="" />
+              <img
+                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSSQRPqREjFKti6YlFX7fha1oSCTIUV_gwbPg&usqp=CAU"
+                alt=""
+              />
               <p></p>
             </div>
             <div
               class="kalvian flex direction-column justify-space-evenly align-center"
             >
-              <img src="" alt="" />
+              <img
+                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSSQRPqREjFKti6YlFX7fha1oSCTIUV_gwbPg&usqp=CAU"
+                alt=""
+              />
               <p></p>
             </div>
             <div
               class="kalvian flex direction-column justify-space-evenly align-center"
             >
-              <img src="" alt="" />
+              <img
+                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSSQRPqREjFKti6YlFX7fha1oSCTIUV_gwbPg&usqp=CAU"
+                alt=""
+              />
               <p></p>
             </div>
             <div
               class="kalvian flex direction-column justify-space-evenly align-center"
             >
-              <img src="" alt="" />
+              <img
+                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSSQRPqREjFKti6YlFX7fha1oSCTIUV_gwbPg&usqp=CAU"
+                alt=""
+              />
               <p></p>
             </div>
           </div>

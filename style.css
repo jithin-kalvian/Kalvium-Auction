@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap");
 * {
   border: 0;
   margin: 0;
@@ -8,6 +9,7 @@ body {
   width: 100%;
   max-height: 100%;
   text-align: center;
+  font-family: "Open Sans", sans-serif;
 }
 
 nav {
@@ -37,40 +39,49 @@ nav {
   align-items: center;
 }
 .profile-main-container {
-  background-color: aquamarine;
-  width: 50vw;
+  /* background-color: aquamarine; */
+  width: 40vw;
   height: 100vh;
+  /* border: 5px solid red; */
+  margin-right: 30px;
 }
 
 .profile-container {
   height: 40vw;
 }
 .team-container {
-  background-color: coral;
+  /* background-color: coral; */
   height: 20vh;
 }
 
 .team-main-container {
-  background-color: blanchedalmond;
+  /* background-color: blanchedalmond; */
   width: 50%;
+  /* border: 5px solid red; */
+}
+
+.team-members-container img {
+  height: 70px;
 }
 
 .profile-info-container {
-  background-color: darkgray;
+  /* background-color: darkgray; */
   height: 30vh;
 }
 
 .profile-info {
-  height: 150px;
+  height: 120px;
   width: 200px;
-  background-color: blue;
+  background-color: red;
   border-radius: 10px;
+  color: white;
+  padding: 5px;
 }
 
 .button {
   height: 30px;
   width: 60px;
-  background-color: brown;
+  background-color: red;
   line-height: 30px;
   color: white;
   border-radius: 4px;
@@ -79,7 +90,7 @@ nav {
 
 .team-members-container {
   /* min-height: 33.33vh; */
-  width: 50vw;
+  width: 60vw;
 }
 .team-holder {
   height: 33.33vh;
@@ -87,8 +98,9 @@ nav {
 .kalvian {
   min-height: 80px;
   min-width: 80px;
-  background-color: darkmagenta;
+  background-color: red;
   margin: 3px;
+  border-radius: 5px;
 }
 
 .wrap {
@@ -111,6 +123,14 @@ nav {
   cursor: pointer;
 }
 
-.profile-container img {
+.team-members-container img {
+  border-radius: 10px;
+}
+
+#profile-info {
+  width: 40vw;
+}
+
+#main-image {
   border-radius: 10px;
 }
