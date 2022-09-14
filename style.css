@@ -43,6 +43,7 @@ nav {
   width: 40vw;
   height: 100vh;
   /* border: 5px solid red; */
+  margin-right: 30px;
 }
 
 .profile-container {
@@ -59,7 +60,7 @@ nav {
   /* border: 5px solid red; */
 }
 
-.team-main-container img {
+.team-members-container img {
   height: 70px;
 }
 
@@ -70,10 +71,11 @@ nav {
 
 .profile-info {
   height: 120px;
-  width: 150px;
+  width: 200px;
   background-color: red;
   border-radius: 10px;
   color: white;
+  padding: 5px;
 }
 
 .button {
@@ -121,10 +123,14 @@ nav {
   cursor: pointer;
 }
 
-.profile-container img {
+.team-members-container img {
   border-radius: 10px;
 }
 
 #profile-info {
   width: 40vw;
+}
+
+#main-image {
+  border-radius: 10px;
 }
