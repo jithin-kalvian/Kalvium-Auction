@@ -134,3 +134,19 @@ nav {
 #main-image {
   border-radius: 10px;
 }
+
+/* pop-up */
+
+.pop-up {
+  /* display: none; */
+  height: 100px;
+  width: 400px;
+  background-color: red;
+  position: absolute;
+  top: 40%;
+  left: 40%;
+  line-height: 100px;
+  color: white;
+  font-weight: bold;
+  border-radius: 5px;
+}
