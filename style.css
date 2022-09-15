@@ -139,11 +139,11 @@ nav {
 
 .pop-up {
   /* display: none; */
-  height: 100px;
+  height: 400px;
   width: 400px;
   background-color: red;
   position: absolute;
-  top: 40%;
+  top: 30%;
   left: 40%;
   line-height: 100px;
   color: white;
